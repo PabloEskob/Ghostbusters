@@ -335,7 +335,8 @@ namespace Opsive.UltimateCharacterController.Integrations.Cinemachine
             if (m_OffsetExtension != null) {
                 m_OffsetExtension.Offset = m_CameraOffset + m_PositionSpring.Value + m_SecondaryPositionSpring.Value + Vector3.up * VerticalOffsetAdjustment;
             }
-            m_Brain.ManualUpdate();
+            if(m_Brain.UpdateMethod == CinemachineBrain.UpdateMethods.ManualUpdate && !Time.inFixedTimeStep)
+                m_Brain.ManualUpdate();
             return m_CinemachineCamera.transform.position;
         }
 

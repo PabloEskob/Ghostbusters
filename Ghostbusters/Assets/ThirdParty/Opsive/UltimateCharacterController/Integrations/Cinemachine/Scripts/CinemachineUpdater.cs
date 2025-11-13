@@ -24,7 +24,7 @@ namespace Opsive.UltimateCharacterController.Integrations.Cinemachine
             m_Brain.BlendUpdateMethod = CinemachineBrain.BrainUpdateMethods.LateUpdate;
         }
 
-        private void FixedUpdate()
+        private void LateUpdate()
         {
             m_Brain.ManualUpdate();
         }
