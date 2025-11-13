@@ -1254,7 +1254,7 @@ Transform:
   m_GameObject: {fileID: 1128939758}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1419,7 +1419,7 @@ MonoBehaviour:
           serializedVersion: 2
           m_Bits: 3758096383
         m_OverlayRenderType: 1
-        m_FirstPersonCamera: {fileID: 0}
+        m_FirstPersonCamera: {fileID: 1128939760}
         m_FirstPersonCullingMask:
           serializedVersion: 2
           m_Bits: 536870912
@@ -1530,7 +1530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b5d7c088409d9a40b7b09aa707777f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineOrbitalFollow
-  TargetOffset: {x: 0, y: 0, z: 0}
+  TargetOffset: {x: 0, y: 2, z: 0}
   TrackerSettings:
     BindingMode: 4
     PositionDamping: {x: 0, y: 0, z: 0}
@@ -1633,7 +1633,7 @@ Transform:
   m_GameObject: {fileID: 1317903392}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1731,7 +1731,7 @@ MonoBehaviour:
       Owner: {fileID: 1317903393}
       Enabled: 1
       Input:
-        InputAction: {fileID: -242935092613052783, guid: 2705e9a8d6bc9704eac0b0f44d46a882, type: 3}
+        InputAction: {fileID: -242935092613052783, guid: 720db810842ff08459f23d2def207297, type: 3}
         Gain: -1
         CancelDeltaTime: 0
       InputValue: 0
